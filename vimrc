@@ -11,10 +11,6 @@ set ruler
 set showmatch
 "Show line numbers
 set nu
-"Size of window
-set lines=50 columns=80
-"window position
-winpos 1068 24
 "highlight current line
 if has("gui_running")
     set cursorline
@@ -97,9 +93,9 @@ endif
 " Status line
 """"""""""""""""""""""""""""""""""""""""""""""
 "Always show the status line
-if has("gui_running")
-    set laststatus=2
-endif
+"if has("gui_running")
+"    set laststatus=2
+"endif
 
 """"""""""""""""""""""""""""""""""""""""""""""
 " Editing mappings 
