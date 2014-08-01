@@ -16,7 +16,9 @@ set lines=50 columns=80
 "window position
 winpos 1068 24
 "highlight current line
-set cursorline
+if has("gui_running")
+    set cursorline
+endif
 
 """"""""""""""""""""""""""""""""""""""""""
 " Vundle 
@@ -86,14 +88,18 @@ vnoremap <silent> # :call VisualSelection('b')<CR>
 " Moving around, tabs, windows and buffers 
 """"""""""""""""""""""""""""""""""""""""""""""
 " Treat long lines as break lines (useful when moving around in them)
-map j gj
-map k gk
+if has("gui_running")
+    map j gj
+    map k gk
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""
 " Status line
 """"""""""""""""""""""""""""""""""""""""""""""
 "Always show the status line
-set laststatus=2
+if has("gui_running")
+    set laststatus=2
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""
 " Editing mappings 
