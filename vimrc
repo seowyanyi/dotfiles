@@ -15,6 +15,8 @@ set nu
 set lines=50 columns=80
 "window position
 winpos 1068 24
+"highlight current line
+set cursorline
 
 """"""""""""""""""""""""""""""""""""""""""
 " Vundle 
