@@ -15,6 +15,8 @@ set nu
 if has("gui_running")
     set cursorline
 endif
+"Use + buffer (system clipboard) by default
+set clipboard=unnamedplus
 
 """"""""""""""""""""""""""""""""""""""""""
 " Vundle 
