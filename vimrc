@@ -33,8 +33,30 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 "keyword completion system by caching
 Bundle 'Shougo/neocomplete'
-"
+"Easy explore of filesytem to open files and directories
 Bundle 'scrooloose/nerdtree'
+Bundle 'jelera/vim-javascript-syntax'
+"JS indentation and highlighting
+Bundle 'pangloss/vim-javascript'
+"Visually displaying indent levels
+Bundle 'nathanaelkane/vim-indent-guides'
+"Automatic adding of closing quote, bracket etc...
+Bundle 'Raimondi/delimitMate'
+"On-the-fly syntax checking plugin that runs through external syntax checkers
+Bundle 'scrooloose/syntastic'
+let g:syntastic_check_on_open=1 "only check when file is saved
+"Code autocompletion
+Bundle 'Valloric/YouCompleteMe'
+" These are the tweaks I apply to YCM's config, you don't need them but they
+" might help.
+" " YCM gives you popups and splits by default that some people might not
+" like, so these should tidy it up a bit for you.
+" let g:ycm_add_preview_to_completeopt=0
+" let g:ycm_confirm_extra_conf=0
+" set completeopt-=preview
+
+" Tern is tool for parsing JS properly
+Bundle 'marijnh/tern_for_vim'
 
 "All Vundle plugins must be added before the following line
 call vundle#end()    
