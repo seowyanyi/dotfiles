@@ -9,7 +9,7 @@ autoload -Uz compinit
 compinit
 #case insensitive tab completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
-#autoload -U promptinit
+autoload -U promptinit
 promptinit
 prompt fade
 export TZ=Singapore
