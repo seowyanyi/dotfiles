@@ -7,8 +7,17 @@ bindkey -v
 
 autoload -Uz compinit
 compinit
-autoload -U promptinit
+#case insensitive tab completion
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+#autoload -U promptinit
 promptinit
 prompt fade
 export TZ=Singapore
+#color for ls
+if [[ -x "`whence -p dircolors`" ]]; then
+  eval `dircolors`
+  alias ls='ls -F --color=auto'
+else
+  alias ls='ls -F'
+fi
 
