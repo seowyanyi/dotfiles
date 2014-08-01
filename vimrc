@@ -25,14 +25,20 @@ filetype off
 "set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 
+
 call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 "Git wrapper
 Plugin 'tpope/vim-fugitive'
+"keyword completion system by caching
+Bundle 'Shougo/neocomplete'
+"
+Bundle 'scrooloose/nerdtree'
 
 "All Vundle plugins must be added before the following line
 call vundle#end()    
+
 
 filetype plugin indent on
 "
