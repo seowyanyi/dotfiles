@@ -54,11 +54,6 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/syntastic'
 let g:syntastic_check_on_open=1 "only check when file is saved
 
-"Python autocompletion
-Bundle 'davidhalter/jedi-vim'
-let g:ycm_filetype_specific_completion_to_disable = { 'python' : 1 }
-let g:ycm_filetype_blacklist = { 'python' : 1 }
-
 "Code autocompletion
 Bundle 'Valloric/YouCompleteMe'
 " These are the tweaks I apply to YCM's config, you don't need them but they
