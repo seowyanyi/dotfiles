@@ -31,12 +31,17 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+"Auto format
+Bundle "Chiel92/vim-autoformat"
 "Git wrapper
 Plugin 'tpope/vim-fugitive'
-"keyword completion system by caching
-Bundle 'Shougo/neocomplete'
 "Easy explore of filesytem to open files and directories
 Bundle 'scrooloose/nerdtree'
+"Vim scripting
+Bundle 'vim-scripts/L9.git'
+"Add count index to searches
+Bundle 'vim-scripts/IndexedSearch'
+"JS Synatx
 Bundle 'jelera/vim-javascript-syntax'
 "JS indentation and highlighting
 Bundle 'pangloss/vim-javascript'
@@ -44,9 +49,16 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'nathanaelkane/vim-indent-guides'
 "Automatic adding of closing quote, bracket etc...
 Bundle 'Raimondi/delimitMate'
+
 "On-the-fly syntax checking plugin that runs through external syntax checkers
 Bundle 'scrooloose/syntastic'
 let g:syntastic_check_on_open=1 "only check when file is saved
+
+"Python autocompletion
+Bundle 'davidhalter/jedi-vim'
+let g:ycm_filetype_specific_completion_to_disable = { 'python' : 1 }
+let g:ycm_filetype_blacklist = { 'python' : 1 }
+
 "Code autocompletion
 Bundle 'Valloric/YouCompleteMe'
 " These are the tweaks I apply to YCM's config, you don't need them but they
