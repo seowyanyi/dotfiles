@@ -9,12 +9,16 @@ My configuration files for linux
 sudo apt-get install nodejs nodejs-dev npm
 sudo npm install -g jshint
 ```
-ADDITIONAL INSTALLATION STEPS:
-**Jedi-Vim**
+#ADDITIONAL INSTALLATION STEPS:
+
+
+##**Jedi-Vim**
+
 Install pip: http://pip.readthedocs.org/en/latest/installing.html
 Update Jedi: `sudo pip install jedi`
 
-**Valloric/YouCompleteMe:**
+
+##**Valloric/YouCompleteMe:**
 
 https://github.com/Valloric/YouCompleteMe 
 `make ycm_support_libs` gives error `c++: internal compiler error: Killed (program cc1plus)`
@@ -22,7 +26,7 @@ Cause: DigitalOcean droplet insufficient RAM. Need to add swap file big enough (
 https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04
 
 
-**Tern:**
+###**Tern:**
 
 https://github.com/marijnh/tern_for_vim
 ```
