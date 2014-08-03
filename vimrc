@@ -52,7 +52,7 @@ Bundle 'Raimondi/delimitMate'
 
 "On-the-fly syntax checking plugin that runs through external syntax checkers
 Bundle 'scrooloose/syntastic'
-let g:syntastic_check_on_open=1 "only check when file is saved
+"let g:syntastic_check_on_open=1 "only check when file is saved
 
 "Code autocompletion
 Bundle 'Valloric/YouCompleteMe'
