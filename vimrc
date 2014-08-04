@@ -19,6 +19,10 @@ endif
 set clipboard=unnamedplus
 
 """"""""""""""""""""""""""""""""""""""""""
+" Aliases
+""""""""""""""""""""""""""""""""""""""""""
+command C let @/ = ""
+""""""""""""""""""""""""""""""""""""""""""
 " Vundle 
 """"""""""""""""""""""""""""""""""""""""""
 "Compatibility with older vi. If compatible, all vim enhancements turned off
