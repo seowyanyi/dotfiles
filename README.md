@@ -9,6 +9,13 @@ My configuration files for linux
 sudo apt-get install nodejs nodejs-dev npm
 sudo npm install -g jshint
 ```
+
+**Python: Pylint to lint.**
+
+```
+sudo apt-get install pylint
+```
+
 #ADDITIONAL INSTALLATION STEPS:
 
 
