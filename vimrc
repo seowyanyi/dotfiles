@@ -39,6 +39,8 @@ Plugin 'gmarik/Vundle.vim'
 Bundle "Chiel92/vim-autoformat"
 "Git wrapper
 Plugin 'tpope/vim-fugitive'
+"Easy mappings
+Plugin 'tpope/vim-unimpaired'
 "Easy explore of filesytem to open files and directories
 Bundle 'scrooloose/nerdtree'
 "Vim scripting
@@ -56,7 +58,10 @@ Bundle 'Raimondi/delimitMate'
 
 "On-the-fly syntax checking plugin that runs through external syntax checkers
 Bundle 'scrooloose/syntastic'
-"let g:syntastic_check_on_open=1 "only check when file is saved
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_check_on_open=1 
+"let g:syntastic_python_checkers = ['pylint']
 
 "Code autocompletion
 Bundle 'Valloric/YouCompleteMe'
@@ -67,6 +72,7 @@ Bundle 'Valloric/YouCompleteMe'
 " let g:ycm_add_preview_to_completeopt=0
 " let g:ycm_confirm_extra_conf=0
 " set completeopt-=preview
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 " Tern is tool for parsing JS properly
 Bundle 'marijnh/tern_for_vim'
