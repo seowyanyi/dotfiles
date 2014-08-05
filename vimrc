@@ -22,6 +22,7 @@ set clipboard=unnamedplus
 " Aliases
 """"""""""""""""""""""""""""""""""""""""""
 command C let @/ = ""
+
 """"""""""""""""""""""""""""""""""""""""""
 " Vundle 
 """"""""""""""""""""""""""""""""""""""""""
@@ -58,10 +59,9 @@ Bundle 'Raimondi/delimitMate'
 
 "On-the-fly syntax checking plugin that runs through external syntax checkers
 Bundle 'scrooloose/syntastic'
-let g:syntastic_aggregate_errors = 1
+let g:syntastic_python_pylint_args = '--rcfile=~/.pylintrc' 
 let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_check_on_open=1 
-"let g:syntastic_python_checkers = ['pylint']
 
 "Code autocompletion
 Bundle 'Valloric/YouCompleteMe'
