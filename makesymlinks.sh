@@ -7,8 +7,7 @@
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 zshthemesdir=~/.oh-my-zsh/themes
-files="bashrc vimrc zshrc"    # list of files/folders to symlink in homedir
-zshtheme="yanyi.zsh-theme"
+files="bashrc vimrc zshrc pylintrc"    # list of files/folders to symlink in homedir
 ##########
 
 # create dotfiles_old in homedir
