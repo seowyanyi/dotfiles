@@ -81,4 +81,3 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias c="clear"
-alias ise="/opt/Xilinx/13.1/ISE_DS/ISE/bin/lin64/ise"
