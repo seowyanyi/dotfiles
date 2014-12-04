@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-
+export WORKON_HOME=~/Envs
 #node
 #export PATH=/home/seowyanyi/node
 # Set name of the theme to load.
@@ -50,7 +50,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git github)
 
 source $ZSH/oh-my-zsh.sh
-
+source /usr/local/bin/virtualenvwrapper.sh
 # User configuration
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
