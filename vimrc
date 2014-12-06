@@ -56,7 +56,9 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'nathanaelkane/vim-indent-guides'
 "Automatic adding of closing quote, bracket etc...
 Bundle 'Raimondi/delimitMate'
-
+"Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 "On-the-fly syntax checking plugin that runs through external syntax checkers
 Bundle 'scrooloose/syntastic'
 let g:syntastic_python_pylint_args = '--rcfile=~/.pylintrc' 
@@ -113,6 +115,8 @@ set ai
 set si
 "Wrap lines
 set wrap
+"Disable markdown folding
+let g:vim_markdown_folding_disabled=1
 
 """"""""""""""""""""""""""""""""""""""""""
 " Visual mode 
