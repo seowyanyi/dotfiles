@@ -109,6 +109,8 @@ set expandtab
 "1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
+"Change existing tabs to match current settings
+set retab
 "Auto indent
 set ai
 "Smart indent
