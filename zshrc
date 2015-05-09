@@ -80,3 +80,11 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias c="clear"
+
+
+
+# The next line updates PATH for the Google Cloud SDK.
+source /home/seowyanyi/google-cloud-sdk/path.zsh.inc
+
+# The next line enables bash completion for gcloud.
+source /home/seowyanyi/google-cloud-sdk/completion.zsh.inc

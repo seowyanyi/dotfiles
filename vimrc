@@ -15,9 +15,10 @@ set nu
 if has("gui_running")
     set cursorline
 endif
-"Use + buffer (system clipboard) by default
+"Use + buffer (system clipboard) by default. For linux. 
 set clipboard=unnamedplus
-
+" Visual selection automatically copied to the clipboard
+set go+=a               
 """"""""""""""""""""""""""""""""""""""""""
 " Aliases
 """"""""""""""""""""""""""""""""""""""""""
