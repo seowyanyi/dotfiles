@@ -80,7 +80,6 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias c="clear"
 alias pycharm="pycharm.sh"
 alias smartgit="smartgit.sh"
-alias phantomjs="phantomjs.sh"
 
 # The next line updates PATH for the Google Cloud SDK.
 source /home/seowyanyi/google-cloud-sdk/path.zsh.inc
@@ -97,4 +96,3 @@ source /usr/local/bin/virtualenvwrapper.sh
 export PATH=/opt/WebStorm-141.1237/bin:$PATH
 export PATH=/opt/pycharm-4.5.3/bin:$PATH 
 export PATH=/opt/smartgit/bin:$PATH
-export PATH=/home/seowyanyi/libs/phantomjs/bin:$PATH
