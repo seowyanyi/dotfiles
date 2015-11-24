@@ -78,21 +78,15 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias c="clear"
-alias pycharm="pycharm.sh"
+#alias pycharm="pycharm.sh"
 alias smartgit="smartgit.sh"
-
-# The next line updates PATH for the Google Cloud SDK.
-source /home/seowyanyi/google-cloud-sdk/path.zsh.inc
-
-# The next line enables bash completion for gcloud.
-source /home/seowyanyi/google-cloud-sdk/completion.zsh.inc
 
 # python virtual env settings
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
 
-export PATH=/opt/WebStorm-141.1237/bin:$PATH
-export PATH=/opt/pycharm-4.5.3/bin:$PATH 
-export PATH=/opt/smartgit/bin:$PATH
+#export PATH=/opt/WebStorm-141.1237/bin:$PATH
+#export PATH=/opt/pycharm-4.5.3/bin:$PATH 
+#export PATH=/opt/smartgit/bin:$PATH

@@ -39,16 +39,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 "Auto format
 Bundle "Chiel92/vim-autoformat"
-"Git wrapper
-Plugin 'tpope/vim-fugitive'
-"Easy mappings
-Plugin 'tpope/vim-unimpaired'
-"Easy explore of filesytem to open files and directories
-Bundle 'scrooloose/nerdtree'
-"Vim scripting
-Bundle 'vim-scripts/L9.git'
-"Add count index to searches
-Bundle 'vim-scripts/IndexedSearch'
 "JS Synatx
 Bundle 'jelera/vim-javascript-syntax'
 "JS indentation and highlighting
@@ -57,9 +47,6 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'nathanaelkane/vim-indent-guides'
 "Automatic adding of closing quote, bracket etc...
 Bundle 'Raimondi/delimitMate'
-"Markdown
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
 "On-the-fly syntax checking plugin that runs through external syntax checkers
 Bundle 'scrooloose/syntastic'
 let g:syntastic_python_pylint_args = '--rcfile=~/.pylintrc' 
@@ -67,7 +54,7 @@ let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_check_on_open=1 
 
 "Code autocompletion
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 " These are the tweaks I apply to YCM's config, you don't need them but they
 " might help.
 " " YCM gives you popups and splits by default that some people might not
@@ -76,9 +63,6 @@ Bundle 'Valloric/YouCompleteMe'
 " let g:ycm_confirm_extra_conf=0
 " set completeopt-=preview
 let g:ycm_autoclose_preview_window_after_completion = 1
-
-" Tern is tool for parsing JS properly
-Bundle 'marijnh/tern_for_vim'
 
 "All Vundle plugins must be added before the following line
 call vundle#end()    
